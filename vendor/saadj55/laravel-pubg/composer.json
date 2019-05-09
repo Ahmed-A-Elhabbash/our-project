@@ -1,0 +1,30 @@
+{
+    "name": "saadj55/laravel-pubg",
+    "description": "Laravel Package for Official PUBG API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "pubg", "api", "pubgapi", "laravelpackage"],
+    "authors": [
+        {
+            "name": "Saad Nasir Siddique",
+            "email": "saadj55@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "illuminate/support": "5.3.x|5.6.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saadj55\\LaravelPubg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saadj55\\LaravelPubg\\Providers\\LaravelPubgServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
